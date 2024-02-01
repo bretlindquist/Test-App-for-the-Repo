@@ -36,7 +36,7 @@ Text("Hello")
         
       }
       
-      Color.mint
+      Color.purple
                     .ignoresSafeArea()
       
     }
