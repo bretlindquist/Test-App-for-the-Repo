@@ -23,7 +23,20 @@ struct ContentView: View {
 Text("Hello")
       }
       .navigationDestination(for: Color.self) { color in
+        if color == Color.mint {
+          VStack {
+            Image(systemName: "smiley")
+            Text("You Chose Correctly")
+          }
+        } else {
+          VStack {
+            Image(systemName: "sadface")
+            Text("I'm Sorry, You chose Incorrectly")
+          }
+        }
+        Text("More Text")
         Text(color.description)
+        Text("Alternate Text")
       }
       .navigationTitle("Title")
       .navigationBarTitleDisplayMode(.inline)
@@ -36,7 +49,8 @@ Text("Hello")
         
       }
       
-      Color.mint
+      Color.purple
+      
                     .ignoresSafeArea()
       
     }
