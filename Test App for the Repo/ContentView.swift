@@ -34,7 +34,7 @@ Text("Hello")
             Text("I'm Sorry, You chose Incorrectly")
           }
         }
-        
+        Text("More Text")
         Text(color.description)
       }
       .navigationTitle("Title")
