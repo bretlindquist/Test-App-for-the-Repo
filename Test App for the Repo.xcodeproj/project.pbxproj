@@ -11,6 +11,7 @@
 		CB8F27C32B6BBFB100201879 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8F27C22B6BBFB100201879 /* ContentView.swift */; };
 		CB8F27C52B6BBFB200201879 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB8F27C42B6BBFB200201879 /* Assets.xcassets */; };
 		CB8F27C82B6BBFB200201879 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB8F27C72B6BBFB200201879 /* Preview Assets.xcassets */; };
+		CB8F27CF2B6BC29600201879 /* AppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8F27CE2B6BC29600201879 /* AppTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		CB8F27C22B6BBFB100201879 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CB8F27C42B6BBFB200201879 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB8F27C72B6BBFB200201879 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CB8F27CE2B6BC29600201879 /* AppTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				CB8F27C02B6BBFB100201879 /* Test_App_for_the_RepoApp.swift */,
 				CB8F27C22B6BBFB100201879 /* ContentView.swift */,
+				CB8F27CE2B6BC29600201879 /* AppTabView.swift */,
 				CB8F27C42B6BBFB200201879 /* Assets.xcassets */,
 				CB8F27C62B6BBFB200201879 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB8F27CF2B6BC29600201879 /* AppTabView.swift in Sources */,
 				CB8F27C32B6BBFB100201879 /* ContentView.swift in Sources */,
 				CB8F27C12B6BBFB100201879 /* Test_App_for_the_RepoApp.swift in Sources */,
 			);

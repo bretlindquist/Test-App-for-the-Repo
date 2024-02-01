@@ -8,12 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
+@State private var showMenu = false
+  
+  var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
+        }
+        .navigationTitle("Title")
+        .navigationBarTitleDisplayMode(.inline)
+        .toolbar {
+          ToolbarItem(placement: .navigationBarLeading) {
+            Button { showMenu.toggle() }
+          label: {
+            Image(systemName: "line.3.horizontal")
+          }
+          }
         }
         .padding()
     }
