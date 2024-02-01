@@ -24,6 +24,7 @@ Text("Hello")
       }
       .navigationDestination(for: Color.self) { color in
         Text(color.description)
+        Text("Alternate Text")
       }
       .navigationTitle("Title")
       .navigationBarTitleDisplayMode(.inline)
@@ -37,6 +38,7 @@ Text("Hello")
       }
       
       Color.purple
+      
                     .ignoresSafeArea()
       
     }
