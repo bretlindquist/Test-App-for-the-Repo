@@ -23,6 +23,18 @@ struct ContentView: View {
 Text("Hello")
       }
       .navigationDestination(for: Color.self) { color in
+        if color == Color.mint {
+          VStack {
+            Image(systemName: "smiley")
+            Text("You Chose Correctly")
+          }
+        } else {
+          VStack {
+            Image(systemName: "sadface")
+            Text("I'm Sorry, You chose Incorrectly")
+          }
+        }
+        
         Text(color.description)
       }
       .navigationTitle("Title")
